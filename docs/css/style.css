@@ -1,13 +1,15 @@
-		body{margin:0;padding:0; background:rgba(255,255,255,0.7);color:rgb(75,75,75);}
+		body{margin:0;padding:0;
+			background:rgba(255,255,255, 0.7);
+			color:rgb(75,75,75);}
         body.white_bg{margin:0;padding:0; background:rgb(255,255,255);color:rgb(120,120,120);}
         body.clear_bg{margin:0;padding:0; background:transparent;color:rgb(255,255,255);}
 		.header {
 			font-family: 'Arial Black';
 			margin-left: 20px;
-			font-size: 93.75%;
+			font-size: 29px;
 			margin-right: 20px;
 			font-weight: bold;
-}
+		}
 		.subheader {
 			font-family: "Arial Black";
 			margin-left: 20px;
@@ -17,9 +19,17 @@
 		}
 		.content {
 			font-family: 'Arial';
-			color: #47596f;
 			margin-left: 20px;
 			margin-right: 20px;
 			font-size: 93.75%;
 		}
+	a:link {
+	color: #1565c0;
+}
+a:visited {
+	color: #F48FB1;
+}
+ul{
+	list-style: disc; padding-left: 30px;
+}
 	
